@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> page d'acceuil</title>
+		<meta charset="uft-8">
+		<meta name=keyword content="site projet 2 nsi">
+		<meta name=revised content="24/04/2019">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link rel =stylesheet href="CSS_nav_1.0.css">
+		<link rel ="stylesheet" href="CSS_apparance_1.0.css"/>
+	</head>
+	<body>
+		<header>
+			<p id = "connexion"><a href="page%20d'accueil%201.0.html" class="connexion"> connexion</a></p>
+			<p id = "titre" ><a  id = "title" href="page%20d'accueil%201.0.html">page d'accueil</a></p>
+			<nav>
+				<label	for=menu_roulant id=label_menu>Menu</label>
+				<input type=checkbox id=checkbox_menu role="button">
+				<ul>
+					<li class=menu_nsi_1><p class=para_menu>historique des appels</p>
+						<ul class =submenu_1>
+							<li><a class=hyper_nsi_1 href="page%20d'accueil%201.0.html">cours</a></li>
+							<li><a class=hyper_nsi_1 href="page%20d'accueil%201.0.html">classe</a></li>
+							<li><a class=hyper_nsi_1 href="page%20d'accueil%201.0.html">élève</a></li>
+							<li><a class=hyper_nsi_1 href="page%20d'accueil%201.0.html">enseignant</a></li>
+						</ul>
+					</li>
+					<li class=menu_internet_1><p class=para_menu> classes </p>
+						<ul class =submenu_1>
+							<li><a href="page%20d'accueil%201.0.html" class=hyper_1> création </a></li>
+							<li><a href="page%20d'accueil%201.0.html" class=hyper_1> sélection </a></li>
+						</ul>
+					</li>
+					<li class=menu_autre_1><p class=para_menu>autre</p>
+						<ul class =submenu_1>
+							<li><a href="page%20d'accueil%201.0.html" class=hyper_1> formulaire</a></li>
+						</ul>
+					</li>
+				</ul>	
+			</nav>
+		</header>
+	</body>
+</html>
