@@ -1,0 +1,110 @@
+/*fond d'écran étoilé*/
+
+body{
+	background-image: url(https://tse3.mm.bing.net/th?id=OIP.vfNvVq98bf4guwZbM9PGrAHaFD&pid=Api);
+	background-color: RGBa(255, 255, 255, 0.8)
+}
+
+/*paramétrage du bandeau*/
+
+header{
+	background-color: RGBa(130, 114, 194, 0.65);
+}
+
+/*format de paragraphe classique*/
+
+.para_1{
+	color: blue;
+	text-align: justify;
+}
+
+/*format d'hyperlien classique*/
+
+.hyper_1{
+	color: red;
+	text-align: justify;
+}
+
+/*format de formulaire classique*/
+
+.form_1{
+	color: blue;
+	text-align: left;
+}
+
+/*format titre classique*/
+
+.h1{
+	color: red;
+	text-align: center;
+}
+
+/*bouton de connexion*/
+
+#connexion{
+	text-align: right;
+}
+
+/*nom du site*/
+
+#title{
+	display: inline-block;
+	text-decoration: none;
+	text-align: center ;
+	color: red;
+	font-size: 20px;
+	font-weight: 1000;
+}
+#titre{
+	text-align: center ;
+	color: red;
+	font-size: 20px;
+	font-weight: 1000;
+}
+
+/*syles des sous onglet*/
+
+.submenu_1 li{
+	border-bottom: 1px solid #CCC
+}
+.submenu_1 li a {
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #FFDB11;
+	width: 270px;
+}
+
+
+/*coloration des menu*/
+
+.menu_nsi_1:hover{
+	border-top: 5px solid #FF4444;
+	background-color: RGBa(228, 77, 38, 0.75)
+}
+.menu_internet_1:hover{
+	border-top: 5px solid #FF44EE;
+	background-color: RGBa(228, 77, 238, 0.75)
+}
+.menu_autre_1:hover{
+	border-top: 5px solid #1CF2AC;
+	background-color: RGBa(28, 245, 138, 0.75)
+}
+
+/*coloration des sousmenu*/
+
+.menu_nsi_1 .submenu_1{
+	background-color: RGBa(200, 10, 10, 0.50)
+}
+.menu_internet_1 .submenu_1{
+	background-color: RGBa(200, 10, 210, 0.50)
+}
+.menu_autre_1 .submenu_1{
+	background-color: RGBa(20, 110, 210, 0.50)
+}
+
+/*supréssions des marque d'hyperlien*/
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}

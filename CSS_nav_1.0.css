@@ -1,0 +1,90 @@
+/*supréssions des marge automatique*/
+
+body{ 
+	margin: 0px;
+	padding: 0px;
+}
+
+/*élargir et colorer l'onglet menu*/
+
+nav{
+	width: 100%;
+	background-color: RGBa(130, 114, 194, 0.75);
+}
+
+/*supréssions des marge automatique*/
+
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*code de clear fix*/ 
+
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*allignement à gauche + on leur attribu une position relative*/
+
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+/*création des block de partie*/
+
+nav > ul > li > p{
+	padding: 5px 30px;
+	color: #FFDB11;
+}
+
+/*supréssions des puces*/
+
+nav li{
+	list-style-type: none;
+}
+
+
+/*cacher les sous menu est autre élément de la gestion du menu*/
+
+
+.submenu_1{
+	display: none;
+}
+
+#checkbox_menu{
+	display: none;
+}
+
+#label_menu{
+	display: none;
+}
+
+/*affichage des sousmenu*/
+
+nav li:hover .submenu_1{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 10000;
+}
+
+/*modification des sous menu lorsque la souri passe dessus*/
+
+.submenu_1 li:hover a{
+	font-weight: bold;
+}
+.menu_nsi_1 .submenu_1 li:hover{
+	background-color: RGBa(228, 77, 38, 0.85)
+}
+.menu_internet_1 .submenu_1 li:hover{
+	background-color: RGBa(228, 77, 238, 0.85)
+}
+.menu_autre_1 .submenu_1 li:hover{
+	background-color: RGBa(28, 245, 138, 0.85)
+}
