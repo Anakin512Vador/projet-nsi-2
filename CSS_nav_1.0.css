@@ -79,12 +79,15 @@ nav li:hover .submenu_1{
 .submenu_1 li:hover a{
 	font-weight: bold;
 }
-.menu_nsi_1 .submenu_1 li:hover{
+.menu_historique_1 .submenu_1 li:hover{
 	background-color: RGBa(228, 77, 38, 0.85)
 }
-.menu_internet_1 .submenu_1 li:hover{
+.menu_classes_1 .submenu_1 li:hover{
 	background-color: RGBa(228, 77, 238, 0.85)
 }
-.menu_autre_1 .submenu_1 li:hover{
+.menu_cours_1 .submenu_1 li:hover{
+	background-color: RGBa(28, 77, 238, 0.75)
+}
+.menu_appelle_1 .submenu_1 li:hover{
 	background-color: RGBa(28, 245, 138, 0.85)
 }
