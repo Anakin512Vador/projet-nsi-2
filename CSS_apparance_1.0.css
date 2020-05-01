@@ -77,29 +77,36 @@ header{
 
 /*coloration des menu*/
 
-.menu_nsi_1:hover{
+.menu_historique_1:hover{
 	border-top: 5px solid #FF4444;
 	background-color: RGBa(228, 77, 38, 0.75)
 }
-.menu_internet_1:hover{
+.menu_classes_1:hover{
 	border-top: 5px solid #FF44EE;
 	background-color: RGBa(228, 77, 238, 0.75)
 }
-.menu_autre_1:hover{
+.menu_cours_1:hover{
+	border-top: 5px solid #1CF2AC;
+	background-color: RGBa(28, 77, 238, 0.75)
+}
+.menu_appelle_1:hover{
 	border-top: 5px solid #1CF2AC;
 	background-color: RGBa(28, 245, 138, 0.75)
 }
 
 /*coloration des sousmenu*/
 
-.menu_nsi_1 .submenu_1{
+.menu_historique_1 .submenu_1{
 	background-color: RGBa(200, 10, 10, 0.50)
 }
-.menu_internet_1 .submenu_1{
+.menu_classes_1 .submenu_1{
 	background-color: RGBa(200, 10, 210, 0.50)
 }
-.menu_autre_1 .submenu_1{
-	background-color: RGBa(20, 110, 210, 0.50)
+.menu_cours_1 .submenu_1{
+	background-color: RGBa(20, 10, 210, 0.50)
+}
+.menu_appelle_1 .submenu_1{
+	background-color: RGBa(20, 210, 110, 0.50)
 }
 
 /*supréssions des marque d'hyperlien*/
